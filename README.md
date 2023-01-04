@@ -1,6 +1,6 @@
 # Verilog-projects
 ## Getting Started
-*Install [iverilog](https://bleyer.org/icarus/)
+* Install [iverilog](https://bleyer.org/icarus/)
 * Run `iverilog filename.v filename_tb.v` where the latter is the testbench file
 * Run `vvp a.out` to display the output in terminal
 
