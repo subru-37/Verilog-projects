@@ -1,0 +1,19 @@
+Procedural Blocks
+- Are between begin and end
+- can write delays while assiging 
+
+Procedural Blocks
+- Execute concurrently with other assign statements
+
+Initial Block: Executed only once during initialization 
+Forever Blocks: Runs forever
+LHS should be a register type variable 
+
+Non blocking Assignments <= between a begin and end
+order doesn't matter and are frequently used in sequential circuits
+
+Simply, A circuit, a machine or system that has a well defined and finte set of states
+FSMs are usually made out of with the combination of 2 or more flip flops
+Examples: Ring Counter
+
+Mealy FSM and Moore FSM
