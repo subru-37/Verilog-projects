@@ -16,22 +16,22 @@ module tb_segment7;
          $dumpvars (0, tb_segment7);
          $monitor ($time, " bcd=%4b and seg=%7b", bcd,seg);
          begin
-        bcd=4'b0000; #100;
-        bcd=4'b0001; #100;
-        bcd=4'b0010; #100;
-        bcd=4'b0011; #100;
-        bcd=4'b0100; #100;
-        bcd=4'b0101; #100;
-        bcd=4'b0110; #100;
-        bcd=4'b0111; #100;
-        bcd=4'b1000; #100;
-        bcd=4'b1001; #100;
-        bcd=4'b1010; #100;
-        bcd=4'b1011; #100;
-        bcd=4'b1100; #100;
-        bcd=4'b1101; #100;
-        bcd=4'b1110; #100;
-        bcd=4'b1111; #100;
+        bcd=4'b0000; #1;
+        bcd=4'b0001; #1;
+        bcd=4'b0010; #1;
+        bcd=4'b0011; #1;
+        bcd=4'b0100; #1;
+        bcd=4'b0101; #1;
+        bcd=4'b0110; #1;
+        bcd=4'b0111; #1;
+        bcd=4'b1000; #1;
+        bcd=4'b1001; #1;
+        bcd=4'b1010; #1;
+        bcd=4'b1011; #1;
+        bcd=4'b1100; #1;
+        bcd=4'b1101; #1;
+        bcd=4'b1110; #1;
+        bcd=4'b1111; #1;
          end
         $finish;  
     end
